@@ -53,10 +53,10 @@ apiVersion: v1
 data:
   ENV_VAR_1: fake
   ENV_VAR_2: faker
-  RO_PASSWORD: iH71SSNbCEr3B0KRiF7kltrpUEpcSsCWJDVDY_5R
-  RO_PASSWORD_D: QxfKamwaCqtu5SK2wcMmaCMgWIuJVPt6jA4k0E7d
+  RO_PASSWORD: BIRncuLN6QmPrQaOmgmJXzDuvsT_u_UJmVbAkLZo
+  RO_PASSWORD_D: 1vmgUBatpJbmBqYNTAJ1msSRY9TLVgK54I6eD_r1
   RW_PASSWORD: 0iGkFIoyRhE8wFZEy1k04iOcQnCdr9nmQt3plr3a
-  RW_PASSWORD_D: m9Vk1M9UgC9R4OnBOhCTohdfHYQy5_7WhwIagaRD
+  RW_PASSWORD_D: DdOIjvV2UBuu5rkWEmfHIiVZOoRLdJrkAcVKjBOK
 kind: ConfigMap
 metadata:
   annotations:
@@ -365,7 +365,7 @@ spec:
         - name: DUMB_ENV_NAME
           value: "5"
         - name: DUMB_ENV_NAME_2
-          value: hi
+          value: i want to update this field for gitops
         - name: DUMB_ENV_NAME_3
           value: "7"
         - name: DUMB_ENV_NAME_4
@@ -646,7 +646,7 @@ metadata:
     component: job
     kots.io/app-slug: qakotsregression
     kots.io/backup: velero
-  name: job-5mgmng
+  name: job-6vw1yo
 spec:
   backoffLimit: 1
   completions: 1
